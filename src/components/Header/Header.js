@@ -1,11 +1,15 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import './Header.css';
 
 export default function Header(props){
-
 	return (
-			<div>
+			<header>
 				<h1>{props.title}</h1>
-			</div>
+			</header>
 		);
 };
 
+Header.propTypes = {
+	title: PropTypes.string
+};
