@@ -33,7 +33,7 @@ const settings = {
   ]
 };
 
-// data can also be pulled from HTTP requestz
+// data can also be pulled from HTTP request
 const sliderData = [
   { title: "Test #1", subtitle: "Number 1", image: placeholder, width: 290, height: 500 },
   { title: "Test #2", subtitle: "Number 2", image: placeholder, width: 200, height: 500 },
